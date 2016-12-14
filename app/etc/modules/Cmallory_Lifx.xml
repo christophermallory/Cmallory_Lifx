@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+<modules>
+    <Cmallory_Lifx>
+        <active>true</active>
+        <codePool>local</codePool>
+    </Cmallory_Lifx>
+</modules>
+</config>

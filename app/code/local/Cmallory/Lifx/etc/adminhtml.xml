@@ -1,0 +1,19 @@
+<acl>
+    <resources>
+        <admin>
+            <children>
+                <system>
+                    <children>
+                        <config>
+                            <children>
+                                <cmallory_lifx>
+                                    <title>LIFX Notifications</title>
+                                </cmallory_lifx>
+                            </children>
+                        </config>
+                    </children>
+                </system>
+            </children>
+        </admin>
+    </resources>
+</acl>

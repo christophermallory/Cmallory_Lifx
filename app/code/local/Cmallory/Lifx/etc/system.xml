@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<config>
+    <tabs>
+        <cmallory translate="label" module="cmallory_lifx">
+            <label>LIFX</label>
+            <sort_order>50</sort_order>
+        </cmallory>
+    </tabs>
+    <sections>
+        <cmallory_lifx translate="label" module="cmallory_lifx">
+            <class>separator-top</class>
+            <label>LIFX Notifications</label>
+            <tab>cmallory</tab>
+            <sort_order>10</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <general translate="label">
+                    <label>General Options</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>10</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>0</show_in_website>
+                    <show_in_store>0</show_in_store>
+                    <fields>
+                        <api_token translate="label">
+                            <label>API Token</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </api_token>
+                        <subtotal translate="label">
+                            <label>Order Subtotal</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>30</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment>Enter the value you would like the order to be over for the notification to be activated</comment>
+                        </subtotal>
+                        <color translate="label">
+                            <label>Light Color</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>40</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment>Enter the color you would like the light to flash</comment>
+                        </color>
+                        <flash translate="label">
+                            <label>Number of Flashes</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>50</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment>Enter how many times you would like the light to flash</comment>
+                        </flash>
+                        <period translate="label">
+                            <label>Length of Flashes</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>60</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment>Enter how long in seconds each flash should light up</comment>
+                        </period>
+                    </fields>
+                </general>
+            </groups>
+        </cmallory_lifx>
+    </sections>
+</config>
